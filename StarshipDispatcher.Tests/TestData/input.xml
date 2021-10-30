@@ -7,4 +7,11 @@
             <Y>0.0</Y>
         </Planet>
     </Planets>
+    <Starships>
+        <Starship>
+            <Name>Amigo</Name>
+            <FlightRange>3</FlightRange>
+            <Tonnage>30</Tonnage>
+        </Starship>
+    </Starships>
 </DispatcherData>

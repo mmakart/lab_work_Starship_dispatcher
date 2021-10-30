@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DispatcherData>
+    <Planets>
+        <Planet>
+            <Name>Earth</Name>
+            <X>0.0</X>
+            <Y>0.0</Y>
+        </Planet>
+    </Planets>
+</DispatcherData>

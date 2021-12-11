@@ -6,6 +6,11 @@ namespace StarshipDispatcher
     {
         public Starship Starship { get; set; }
         public Planet Planet { get; set; }
+        public int TransportedWeight
+        {
+            get => Starship.Tonnage;
+            set => Starship.Tonnage = value;
+        }
         public Departure() { }
         public Departure(Starship starship, Planet planet)
         {

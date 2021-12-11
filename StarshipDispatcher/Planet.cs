@@ -17,5 +17,17 @@ namespace StarshipDispatcher
             Y = y;
             ResourceNeed = resourceNeed;
         }
+        public void ReceiveResource(double toReceive)
+        {
+            ResourceNeed -= toReceive;
+            if (ResourceNeed < 0)
+            {
+                ResourceNeed = 0;
+            }
+        }
+        public double DistanceTo(Planet another)
+        {
+            return Math.Sqrt(Math.Pow(another.X - X, 2) + Math.Pow(another.Y - Y, 2));
+        }
     }
 }
